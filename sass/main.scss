@@ -1,0 +1,49 @@
+
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+header{
+    display: flex;
+    height: 90px;
+    width: 100%;
+
+    nav {
+        
+        // display: flex;
+        justify-content: space-around;
+        background-color:#E1B000;
+    
+        ul{
+            list-style: none;
+            display: flex;
+        }
+    
+        li{
+            margin: 2em;
+        }
+        
+        a {
+            text-decoration: none;
+            color:black;
+            font-weight: bold;
+            font-size: larger;
+            font-family: 'Coda Caption', sans-serif;
+    
+            &:hover{
+                color: rgb(253, 228, 0);
+            }
+        }
+    
+        
+    }
+}
+
+@import "footer";
+
