@@ -1,0 +1,47 @@
+body {
+  font-family: "Lato", sans-serif;
+}
+
+h1 {
+  text-align: center;
+  margin: 3vw auto 1vw auto;
+}
+
+.order-cards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100%;
+
+  & .order-card {
+    background-color: rgb(216, 161, 79);
+    display: flex;
+    flex-direction: column;
+    width: 22%;
+    margin: 1vw;
+    height: 200px;
+    font-weight: 100;
+    border: 1px solid #000;
+
+    &-img {
+      width: 100%;
+      height: 60%;
+      img {
+        object-fit: fill;
+        margin: 0;
+        height: 100%;
+        width: 100%;
+      }
+    }
+
+    &-info {
+      position: relative;
+      padding: 3px;
+      & p {
+        text-align: right;
+        font-weight: 300;
+      }
+    }
+  }
+}
