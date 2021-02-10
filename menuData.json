@@ -1,0 +1,42 @@
+{
+    "ramens": [
+        {"name": "しょうゆ", "price": 11.00, "description": "めっちゃ美味い"},
+        {"name": "みそ", "price": 10.00, "description": "めっちゃ美味い"},
+        {"name": "とんこつ", "price": 12.00, "description": "めっちゃ美味い"},
+        {"name": "お味噌", "price": 13.00, "description": "めっちゃ美味い"},
+        {"name": "niboshi", "price": 14.00, "description": "めっちゃ美味い"},
+        {"name": "北海道みそ", "price": 15.00, "description": "めっちゃ美味い"},
+        {"name": "信州みそ", "price": 16.00, "description": "めっちゃ美味い"},
+        {"name": "赤みそ", "price": 17.00, "description": "めっちゃ美味い"}
+    ],
+
+    "toppings": [
+        {"name": "Ajitama", "price": 1.50},
+        {"name": "きくらげ", "price": 1.00},
+        {"name": "チャーシュ", "price": 2.00},
+        {"name": "のり", "price": 1.50},
+        {"name": "コーン", "price": 2.00},
+        {"name": "キムチ", "price": 1.50}
+    ],
+
+    "appetizers": [
+        {"name": "餃子", "price": 11.00, "description": "めっちゃ美味い"},
+        {"name": "しょうゆ", "price": 11.00, "description": "めっちゃ美味い"},
+        {"name": "しょうゆ", "price": 11.00, "description": "めっちゃ美味い"},
+        {"name": "しょうゆ", "price": 11.00, "description": "めっちゃ美味い"}
+    ],
+
+    "drink": [
+        {"name": "ビール", "price": 11.00, "description": "めっちゃ美味い"},
+        {"name": "メロンソーダ", "price": 11.00, "description": "めっちゃ美味い"},
+        {"name": "日本酒", "price": 11.00, "description": "めっちゃ美味い"},
+        {"name": "焼酎", "price": 11.00, "description": "めっちゃ美味い"}
+    ],
+    
+    "others": [
+        {"name": "バニラアイス", "price": 11.00, "description": "めっちゃ美味い"},
+        {"name": "餃子", "price": 11.00, "description": "めっちゃ美味い"},
+        {"name": "餃子", "price": 11.00, "description": "めっちゃ美味い"},
+        {"name": "餃子", "price": 11.00, "description": "めっちゃ美味い"}
+    ]
+}
