@@ -1,10 +1,14 @@
+body {
+  font-family: 'Lato', sans-serif;
+}
+
 h1 {
   text-align: center;
   margin: 3vw auto 1vw auto;
 }
 
 .order-cards {
-    position: relative;
+    // position: relative;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
@@ -40,7 +44,7 @@ h1 {
     }
 
     &-info {
-      position: relative;
+      // position: relative;
       padding: 3px;
       & p {
         text-align: right;
@@ -53,9 +57,12 @@ h1 {
 .modal {
     display: none;
     // opacity: 0;
-    position: absolute;
-    top: 55%;
+    // position: absolute;
+    position: fixed;
+    top: 50%;
     left: 50%;
+    // top: 0;
+    // left: 0;
     transform: translate(-50%, -50%);
     // background-color: rgb(173, 173, 173);
     background-color: rgb(226, 226, 226);
@@ -69,24 +76,24 @@ h1 {
     &-img {
         height: 50%;
 
-        &.img1 {
-            background-image: url('../img/ramen01.jpg');
-            background-size:cover;
-            background-position: center;
-        }
+        // &.img1 {
+        //     background-image: url('../img/ramen1.jpg');
+        //     background-size:cover;
+        //     background-position: center;
+        // }
         &.img2 {
-            background-image: url('../img/ramen02.jpg');
+            background-image: url('../img/ramen2.jpg');
             background-size:cover;
             background-position: center;
             background-color: red;
         }
         &.img3 {
-            background-image: url('../img/ramen03.jpg');
+            background-image: url('../img/ramen3.jpg');
             background-size:cover;
             background-position: center;
         }
         &.img4 {
-            background-image: url('../img/ramen04.jpg');
+            background-image: url('../img/ramen4.jpg');
             background-size:cover;
             background-position: center;
         }
@@ -97,7 +104,8 @@ h1 {
         // background-color: red;
         height: 50%;
 
-        & .topping {
+        & .topping,
+        & .quantity {
             height: 100%;
             display: flex;
             flex-direction: column;
@@ -114,7 +122,19 @@ h1 {
                 }
 
             }
+
+            & .modal-total {
+              display: flex;
+              justify-content: space-between;
+              background-color: red;
+            }
         }
+
+        // & .quantity {
+        //   display: flex;
+        //   flex-direction: column;
+        //   justify-content: space-between;
+        // }
     }
 }
 
