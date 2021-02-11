@@ -1,3 +1,31 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+header {
+  display: flex;
+  height: 90px;
+  width: 100%; }
+  header nav {
+    justify-content: space-around;
+    background-color: #E1B000; }
+    header nav ul {
+      list-style: none;
+      display: flex; }
+    header nav li {
+      margin: 2em; }
+    header nav a {
+      text-decoration: none;
+      color: black;
+      font-weight: bold;
+      font-size: larger;
+      font-family: 'Coda Caption', sans-serif; }
+      header nav a:hover {
+        color: #fde400; }
+
 body {
   font-family: 'Lato', sans-serif; }
 
@@ -101,31 +129,3 @@ h1 {
   background-color: #000000;
   opacity: 0.5;
   z-index: 2; }
-
-*,
-*::before,
-*::after {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box; }
-
-header {
-  display: flex;
-  height: 90px;
-  width: 100%; }
-  header nav {
-    justify-content: space-around;
-    background-color: #E1B000; }
-    header nav ul {
-      list-style: none;
-      display: flex; }
-    header nav li {
-      margin: 2em; }
-    header nav a {
-      text-decoration: none;
-      color: black;
-      font-weight: bold;
-      font-size: larger;
-      font-family: 'Coda Caption', sans-serif; }
-      header nav a:hover {
-        color: #fde400; }
